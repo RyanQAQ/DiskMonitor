@@ -1,0 +1,20 @@
+# 构建输出
+bin/
+
+# 数据目录运行时副本（exe 启动时从内嵌资源同步生成，构建原料在 src\）
+/DiskMonitor.ps1
+/Update-Task.ps1
+/config.json
+
+# 运行数据（快照/报告/日志/状态）
+snapshots/
+reports/
+last-run.log
+state.json
+install-progress.log
+
+# 临时文件
+*.tmp
+*.tmp.*
+Thumbs.db
+Desktop.ini
